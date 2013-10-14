@@ -4,9 +4,9 @@ import tornado.web
 import torndb
 from model.entity import Entity
 from model.student import Student
-from Jinja2 import Template
+from jinja2 import Template
 
-db=torndb.Connection('192.168.116.128','test',user='root',password='111')
+db=torndb.Connection('127.0.0.1','test',user='root',password='111')
 
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
