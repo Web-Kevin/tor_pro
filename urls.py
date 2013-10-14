@@ -4,6 +4,7 @@ from handler.index import MainHandler
 from handler.index import TestHandler
 from handler.index import StoryHandler
 from handler.index import StrtestHandler
+from handler.index import JinjaHandler
 
 
 urls = [
@@ -16,5 +17,6 @@ urls = [
         
         (r'/strTest', StrtestHandler),
 
+        (r'/jinja',JinjaHandler),
         ]
 

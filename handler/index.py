@@ -4,6 +4,7 @@ import tornado.web
 import torndb
 from model.entity import Entity
 from model.student import Student
+from Jinja2 import Template
 
 db=torndb.Connection('192.168.116.128','test',user='root',password='111')
 
@@ -34,6 +35,10 @@ class StrtestHandler(tornado.web.RequestHandler):
         test = self.get_argument('strTest' ,default = None, strip=True)
         self.write('hello'+ '我' + test)
         
+class JinjaHandler(tornado.web.RequestHandler):
+    def get(self):
+        template = Template('Hello {{name}}!')
+        template.render(name='world')
         
         
         
