@@ -4,7 +4,7 @@ import tornado.web
 import torndb
 from model.entity import Entity
 from model.student import Student
-from jinja2 import Template
+from jinja2 import Environment,PackageLoader
 
 db=torndb.Connection('127.0.0.1','test',user='root',password='111')
 

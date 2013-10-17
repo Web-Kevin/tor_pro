@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello</title>
+    <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 60px;
+      }
+
+      /* Custom container */
+      .container {
+        margin: 0 auto;
+        max-width: 1000px;
+      }
+      .container > hr {
+        margin: 60px 0;
+      }
+      /* Customize the navbar links to be fill the entire space of the .navbar */
+      .navbar .navbar-inner {
+        padding: 0;
+      }
+      .navbar .nav {
+        margin: 0;
+        display: table;
+        width: 100%;
+      }
+      .navbar .nav li {
+        display: table-cell;
+        width: 1%;
+        float: none;
+      }
+      .navbar .nav li a {
+        font-weight: bold;
+        text-align: center;
+        border-left: 1px solid rgba(255,255,255,.75);
+        border-right: 1px solid rgba(0,0,0,.1);
+      }
+      .navbar .nav li:first-child a {
+        border-left: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      .navbar .nav li:last-child a {
+        border-right: 0;
+        border-radius: 0 3px 3px 0;
+      }
+      .intervel{
+        width: 500px;
+        height: 50px;
+      }
+      .container-fluid {
+        padding-right: 0px;
+        padding-left: 0px;
+      }
+      .carousel-inner{
+        height: 285px;
+      }
+  
+   </style>
+  </head>
+  <body>
+    <div class="container">
+    <h1>成功教育<small>the future</small></h1>
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+        <ul class="nav">
+        <li  class="active"><a href="#">首页</a></li>
+        <li><a href="#">新闻</a></li>
+        <li><a href="#">名师介绍</a></li>
+        <li><a href="#">课程介绍</a></li>
+        <li><a href="#">光荣榜</a></li>
+        <li><a href="#">联系我们</a></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+    <!-- menu end -->
+    <div id="myCarousel" class="carousel slide">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+    <!-- Carousel items -->
+    <div class="carousel-inner">
+      <div class="active item">
+        <img src="./static/img/6.jpg">
+      </div>
+      <div class="item">
+        <div class="hero-unit">
+         <h1>Heading</h1>
+          <p>Tagline</p>
+        <p><a class="btn btn-primary btn-large">点击报名</a>
+        </p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="hero-unit">
+         <h1>Heading</h1>
+          <p>Tagline</p>
+        <p><a class="btn btn-primary btn-large">点击报名</a>
+        </p>
+        </div>
+      </div>
+    </div>
+    <!-- Carousel nav -->
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div>
+    <!-- turn end -->
+    <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span5">
+        <!--Sidebar content-->
+        <div><pre>联系方式：000000000</pre></div>
+      </div>
+      <div class="span7">
+        <!--Body content-->
+        <table class="table table-hover">
+          <tbody>
+            <tr>
+              <td colspan="3">1</td>
+              
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Larry</td>
+              <td>the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      </div>
+    </div>
+    <hr>
+    <!-- footer begin -->
+    <div style="text-align:right">Copyright © 1999-2012<br><h4>Powered by ...工作室</h4></div>
+
+
+
+
+
+    </div>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
