@@ -1,5 +1,6 @@
 eclipse.preferences.version=1
 encoding//handler/index.py=utf-8
+encoding//handler/temHandler.py=utf-8
 encoding//model/entity.py=utf-8
 encoding//model/student.py=utf-8
 encoding/application.py=utf-8
